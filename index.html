@@ -4,12 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>Classic cars</title>
 </head>
 <body>
-    
+    <!-- Menu -->
+    <div class="menu target center">
+        <div class="menu-line menu-line-1"></div>
+        <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- End of menu -->
+    <!-- Navbar -->
+    <nav class="navbar target">
+        <a href="#home" class="navbar-link">Home</a>
+        <a href="#popular-cars" class="navbar-link">Popular Cars</a>
+        <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+        <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+        <a href="#contact" class="navbar-link">Contact</a>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Section 1 -->
+    <div class="wrapper">
+        <section class="section-1 target center" id="home">
+            <h1 class="section-heading section-1-heading">Classic Cars</h1>
+            <img src="Images/car-section1.png" class="section-1-img">
+        </section>
+    </div>
+    <!-- End of section 1 -->
+    <!-- Section 2 -->
+    <div class="wrapper">
+        <section class="section-2 target" id="popular-cars">
+            <h1 class="section-heading">Popular Cars</h1>
+            <div class="cards-wrapper center">
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2>
+                    <img src="Images/car-img.jpeg" class="card-img">
+                    <h3 class="car-price">$300,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2>
+                    <img src="Images/car-gallery.jpg" class="card-img">
+                    <h3 class="car-price">$500,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2>
+                    <img src="Images/car-2.jpg" class="card-img">
+                    <h3 class="car-price">$250,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End of section 2 -->
+    <!-- Section 3 -->
+    <div class="wrapper">
+        <section class="section-3 target" id="video-gallery"></section>
+    </div>
+    <!-- End of section 3 -->
+    <!-- Section 4 -->
+    <div class="wrapper">
+        <section class="section-4 target" id="image-gallery"></section>
+    </div>
+    <!-- End of section 4 -->
+    <!-- Section 5 -->
+    <div class="wrapper">
+        <section class="section-5 target" id="contact"></section>
+    </div>
+    <!-- End of section 5 -->
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
